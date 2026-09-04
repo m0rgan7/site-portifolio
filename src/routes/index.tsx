@@ -169,7 +169,7 @@ function Portfolio() {
       <section id="about" className="px-6 md:px-10 py-24 md:py-40 bg-secondary/20 border-y border-border">
         <div className="max-w-7xl mx-auto grid md:grid-cols-12 gap-10 items-center">
           <div className="md:col-span-5">
-            <div className="relative aspect-[4/5] overflow-hidden rounded-sm border border-border bg-secondary/30 p-8 flex flex-col justify-between">
+            <div className="relative aspect-4/5 overflow-hidden rounded-sm border border-border bg-secondary/30 p-8 flex flex-col justify-between">
               <div className="font-mono-ui text-xs text-muted-foreground">
                 // manifest.txt
               </div>
