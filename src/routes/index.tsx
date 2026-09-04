@@ -38,7 +38,8 @@ const projects = [
 
 const stack = [
   "Python", "Java", "JavaScript", "AWS", "Git", "HTML",
-  "CSS", "Tanstack", "TailwindCSS", "Docker", "TypeScript", "SpringBoot"
+  "CSS", "Tanstack", "TailwindCSS", "Docker", "TypeScript", "SpringBoot",
+  "Linux", "PowerShell"
 ];
 
 function Portfolio() {
@@ -63,16 +64,16 @@ function Portfolio() {
       <header className="fixed top-0 inset-x-0 z-50 backdrop-blur-md bg-background/60 border-b border-border/60">
         <div className="max-w-7xl mx-auto px-6 md:px-10 h-16 flex items-center justify-between">
           <a href="#top" className="font-display text-xl font-semibold tracking-tight">
-            ateliê<span className="text-ember">.</span>digital
+            data<span className="text-ember">.</span>river
           </a>
           <nav className="hidden md:flex gap-8 text-sm font-mono-ui text-muted-foreground">
             <a href="#work" className="hover:text-foreground transition">01 · Trabalho</a>
             <a href="#about" className="hover:text-foreground transition">02 · Sobre</a>
-            <a href="#stack" className="hover:text-foreground transition">03 · Stack</a>
+            <a href="#stack" className="hover:text-foreground transition">03 · Ferramentas</a>
             <a href="#contact" className="hover:text-foreground transition">04 · Contato</a>
           </nav>
           <div className="font-mono-ui text-xs text-muted-foreground tabular-nums">
-            SP · {time}<span className="text-ember animate-blink">_</span>
+            {time}<span className="text-ember animate-blink">_</span>
           </div>
         </div>
       </header>
@@ -96,8 +97,8 @@ function Portfolio() {
             <p className="md:col-span-6 md:col-start-6 text-lg md:text-xl text-muted-foreground max-w-xl text-balance animate-fadeup" style={{ animationDelay: "0.2s" }}>
               Engenheira de dados com foco em{" "}
               <span className="text-foreground">machine learning</span> e{" "}
-              <span className="text-foreground">cibersegurança</span> — e full-stack quando o produto pede.
-              Pipelines resilientes, modelos observáveis e sistemas que não vazam.
+              <span className="text-foreground">cibersegurança</span> — Com conhecimento adicional em full-stack quando o produto pede.
+              Construo pipelines resilientes, modelos observáveis e sistemas que não vazam.
             </p>
           </div>
         </div>
@@ -108,7 +109,7 @@ function Portfolio() {
         <div className="flex whitespace-nowrap animate-marquee font-display text-4xl md:text-6xl">
           {Array.from({ length: 2 }).map((_, k) => (
             <div key={k} className="flex items-center gap-10 pr-10">
-              {["Python", "PySpark", "Airflow", "PyTorch", "MLflow", "Kafka", "Wazuh", "ClickHouse"].map((w) => (
+              {["Python", "Java", "AWS", "Git", "Tanstack", "TailwindCSS", "Docker", "TypeScript", "SpringBoot", "PowerShell"].map((w) => (
                 <span key={w} className="flex items-center gap-10">
                   <span className="text-foreground/90">{w}</span>
                   <span className="text-ember">✦</span>
@@ -126,7 +127,7 @@ function Portfolio() {
             <h2 className="font-display text-4xl md:text-6xl tracking-tight">
               Trabalhos <em className="text-ember italic font-light">selecionados</em>
             </h2>
-            <span className="font-mono-ui text-xs text-muted-foreground hidden md:inline">/ 04 peças</span>
+            <span className="font-mono-ui text-xs text-muted-foreground hidden md:inline">/ 04 projetos</span>
           </div>
 
           <ul className="border-t border-border">
@@ -177,6 +178,12 @@ function Portfolio() {
                 → <em className="italic font-light">insight</em><br />
                 → <span className="underline decoration-ember/60 decoration-2 underline-offset-4">decisão</span>
               </div>
+
+              <div className="mt-6 border-l-2 border-ember/40 pl-4 font-mono-ui text-xs md:text-sm text-muted-foreground leading-relaxed">
+                <span className="text-foreground">Código</span> é o meio.<br />
+                <span className="text-foreground">Resolver problemas</span> é o objetivo.
+              </div>
+
               <div className="font-mono-ui text-xs text-ember">
                 ∎ build 2026
               </div>
@@ -186,27 +193,26 @@ function Portfolio() {
           <div className="md:col-span-7 md:pl-8">
             <span className="font-mono-ui text-xs uppercase tracking-widest text-ember">02 · Sobre</span>
             <h2 className="mt-4 font-display text-4xl md:text-6xl tracking-tight text-balance">
-              Código como <em className="italic text-ember font-light">ofício</em>, não como pressa.
+              Toda solução <em className="italic text-ember font-light">começa</em> com uma pergunta.
             </h2>
             <div className="mt-8 space-y-5 text-lg text-muted-foreground max-w-2xl">
               <p>
-                Comecei adolescente automatizando planilhas com <span className="text-foreground">Python</span> e nunca mais parei
-                de perseguir o dado. Hoje construo pipelines que movem terabytes, treino modelos que
-                aprendem em produção e endureço sistemas contra quem não deveria estar ali.
-              </p>
+                Gosto de construir do zero, entender problemas por diferentes ângulos e transformar ideias em soluções que realmente funcionam.
+                Desafios me estimulam, assim como a curiosidade e aquela satisfação de olhar para algo que antes não existia e poder dizer:
+                <span className="text-foreground">fui eu que fiz.</span> 
+              </p> 
               <p>
-                Vivo entre <span className="text-foreground">data engineering</span>,{" "}
-                <span className="text-foreground">machine learning</span> e{" "}
-                <span className="text-foreground">cibersegurança</span> — com base full-stack sólida para
-                entregar da ingestão à interface. Contratos claros, observabilidade cedo, segurança por padrão.
+                Aprendo rápido e estou sempre buscando conhecimento novo <span className="text-foreground">— não só para acompanhar o que muda,</span>
+                mas para entender o <span className="text-foreground">porquê</span> das coisas e encontrar caminhos melhores. 
+                Para mim, desenvolver é isso: perguntar, explorar, resolver e continuar aprendendo no processo.
               </p>
             </div>
 
             <dl className="mt-12 grid grid-cols-3 gap-8 border-t border-border pt-8">
               {[
-                { k: "11", l: "anos de código" },
-                { k: "40+", l: "projetos entregues" },
-                { k: "9", l: "clientes recorrentes" },
+                { k: "4", l: "anos de código" },
+                { k: "5+", l: "projetos entregues" },
+                { k: "6", l: "clientes satisfeitos" },
               ].map((s) => (
                 <div key={s.l}>
                   <dt className="font-display text-5xl text-ember">{s.k}</dt>
@@ -287,7 +293,7 @@ function Portfolio() {
       <footer className="border-t border-border px-6 md:px-10 py-10">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between gap-4 font-mono-ui text-xs text-muted-foreground">
           <div>© 2026 · Ateliê Digital · Dados, ML & segurança</div>
-          <div>Latitude −23.55 · Longitude −46.63</div>
+          <div>Latitude − · Longitude −</div>
         </div>
       </footer>
     </div>
