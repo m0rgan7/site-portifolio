@@ -37,9 +37,8 @@ const projects = [
 ];
 
 const stack = [
-  "Python", "PySpark", "Airflow", "PyTorch", "scikit-learn", "MLflow",
-  "Kafka", "ClickHouse", "PostgreSQL", "Docker", "Kubernetes", "AWS",
-  "Wazuh", "Splunk", "TypeScript", "React",
+  "Python", "Java", "JavaScript", "AWS", "Git", "HTML",
+  "CSS", "Tanstack", "TailwindCSS", "Docker", "TypeScript", "SpringBoot"
 ];
 
 function Portfolio() {
@@ -48,7 +47,7 @@ function Portfolio() {
     const tick = () => {
       const d = new Date();
       setTime(
-        d.toLocaleTimeString("pt-BR", { hour: "2-digit", minute: "2-digit", second: "2-digit", timeZone: "America/Sao_Paulo" })
+        d.toLocaleTimeString("pt-BR", { hour: "2-digit", minute: "2-digit", second: "2-digit", timeZone: "" })
       );
     };
     tick();
