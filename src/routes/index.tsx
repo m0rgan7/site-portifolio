@@ -47,7 +47,7 @@ function Portfolio() {
     const tick = () => {
       const d = new Date();
       setTime(
-        d.toLocaleTimeString("pt-BR", { hour: "2-digit", minute: "2-digit", second: "2-digit", timeZone: "" })
+        d.toLocaleTimeString("pt-BR", { hour: "2-digit", minute: "2-digit", second: "2-digit"})
       );
     };
     tick();
