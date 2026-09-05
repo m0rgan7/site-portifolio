@@ -199,10 +199,10 @@ function Portfolio() {
               <p>
                 Gosto de construir do zero, entender problemas por diferentes ângulos e transformar ideias em soluções que realmente funcionam.
                 Desafios me estimulam, assim como a curiosidade e aquela satisfação de olhar para algo que antes não existia e poder dizer:
-                <span className="text-foreground">fui eu que fiz.</span> 
+                <span className="text-foreground"> fui eu que fiz.</span> 
               </p> 
               <p>
-                Aprendo rápido e estou sempre buscando conhecimento novo <span className="text-foreground">— não só para acompanhar o que muda,</span>
+                Aprendo rápido e estou sempre buscando conhecimento novo <span className="text-foreground">— não só para acompanhar o que muda, </span>
                 mas para entender o <span className="text-foreground">porquê</span> das coisas e encontrar caminhos melhores. 
                 Para mim, desenvolver é isso: perguntar, explorar, resolver e continuar aprendendo no processo.
               </p>
@@ -278,13 +278,13 @@ function Portfolio() {
             rel="noopener noreferrer"
             className="inline-block mt-12 font-mono-ui text-lg md:text-xl px-8 py-4 rounded-full bg-ember text-ink hover:bg-foreground transition-colors"
           >
-            ola@atelie.digital →
+            ola@data-river.com →
           </a>
 
           <div className="mt-16 flex justify-center gap-8 font-mono-ui text-sm text-muted-foreground">
             <a href="https://github.com/m0rgan7" target="_blank" rel="noopener noreferrer" className="hover:text-ember">GitHub</a>
             <a href="https://linkedin.com/in/lavínia-melo-735a4a2a9/" target="_blank" rel="noopener noreferrer" className="hover:text-ember">LinkedIn</a>
-            <a href="#" className="hover:text-ember">Read.cv</a>
+            <a href="#" className="hover:text-ember">Início</a>
           </div>
         </div>
       </section>
@@ -292,7 +292,7 @@ function Portfolio() {
       {/* FOOTER */}
       <footer className="border-t border-border px-6 md:px-10 py-10">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between gap-4 font-mono-ui text-xs text-muted-foreground">
-          <div>© 2026 · Ateliê Digital · Dados, ML & segurança</div>
+          <div>© 2026 · Data River · Dados, ML & segurança</div>
           <div>Latitude − · Longitude −</div>
         </div>
       </footer>
