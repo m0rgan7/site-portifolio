@@ -8,10 +8,12 @@ export const Route = createFileRoute("/")({
 const projects = [
   {
     year: "2025",
-    name: "Pipeline Íris",
-    role: "Data Engineering · Airflow + Spark",
-    desc: "Pipeline de ingestão de 2TB/dia com Airflow, Spark e Delta Lake. Data quality com Great Expectations e catálogo via OpenMetadata.",
-    stack: ["Python", "Spark", "Airflow", "Delta"],
+    name: "Experimento de SpringBoot",
+    role: "POO · SpringBoot · AWS",
+    desc: "Mini projetos utilizando SpringBoot, AWS e POO para explorar conceitos de arquitetura, design patterns e boas práticas de desenvolvimento.",
+    stack: ["Java", "AWS", "SpringBoot"],
+    link: "https://github.com/m0rgan7/trilha-java-digital-inovation-one",
+
   },
   {
     year: "2025",
@@ -273,17 +275,17 @@ function Portfolio() {
           </h2>
 
           <a
-            href="https://mail.google.com/mail/u/0/#inbox?compose=new"
+            href="mailto:lavinia.p.a.melo@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block mt-12 font-mono-ui text-lg md:text-xl px-8 py-4 rounded-full bg-ember text-ink hover:bg-foreground transition-colors"
           >
-            data-river@gmail.com →
+            lavinia.p.a.melo@gmail.com →
           </a>
 
           <div className="mt-16 flex justify-center gap-8 font-mono-ui text-sm text-muted-foreground">
             <a href="https://github.com/m0rgan7" target="_blank" rel="noopener noreferrer" className="hover:text-ember">GitHub</a>
-            <a href="https://linkedin.com/in/lavínia-melo-735a4a2a9/" target="_blank" rel="noopener noreferrer" className="hover:text-ember">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/lavínia-perdigao/" target="_blank" rel="noopener noreferrer" className="hover:text-ember">LinkedIn</a>
             <a href="#" className="hover:text-ember">Início</a>
           </div>
         </div>
