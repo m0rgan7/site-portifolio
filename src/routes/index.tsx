@@ -275,7 +275,6 @@ function Portfolio() {
 
           <a
             href="mailto:lavinia.p.a.melo@gmail.com"
-            rel="noopener noreferrer"
             className="inline-block mt-12 font-mono-ui text-lg md:text-xl px-8 py-4 rounded-full bg-ember text-ink hover:bg-foreground transition-colors"
           >
             lavinia.p.a.melo@gmail.com →
