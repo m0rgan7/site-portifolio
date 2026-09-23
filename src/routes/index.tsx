@@ -13,28 +13,27 @@ const projects = [
     desc: "Mini projetos utilizando SpringBoot, AWS e POO para explorar conceitos de arquitetura, design patterns e boas práticas de desenvolvimento.",
     stack: ["Java", "AWS", "SpringBoot"],
     link: "https://github.com/m0rgan7/trilha-java-digital-inovation-one",
-
   },
   {
-    year: "2025",
-    name: "Sentinela ML",
+    year: "2026",
+    name: "Site para calcular imposto de renda (Rentix)",
     role: "Machine Learning · MLOps",
     desc: "Modelo de detecção de fraude em tempo real (XGBoost + features via Feast). Deploy com MLflow, monitoramento de drift e retraining automatizado.",
     stack: ["PyTorch", "MLflow", "Feast", "Kafka"],
   },
   {
-    year: "2024",
+    year: "2026",
     name: "Muralha SIEM",
     role: "Cybersecurity · Threat Detection",
     desc: "Plataforma de detecção de ameaças com correlação de eventos em Wazuh + ELK, regras Sigma customizadas e resposta automatizada via SOAR.",
     stack: ["Wazuh", "ELK", "Sigma", "Python"],
   },
   {
-    year: "2024",
-    name: "Nimbus Studio",
-    role: "Full-stack · Node + Vite",
-    desc: "Painel analítico full-stack com autenticação zero-trust, RBAC granular e dashboards em tempo real sobre um data warehouse ClickHouse.",
-    stack: ["Node.js", "React", "ClickHouse"],
+    year: "2026",
+    name: "Portifólio Data River",
+    role: "Full-stack · Tanstack + Vite",
+    desc: "Portfólio pessoal. Deploy em Vercel, observabilidade via Logflare e métricas customizadas.",
+    stack: ["Tanstack", "React", "Vite", "TailwindCSS", "TypeScript"],
   },
 ];
 
@@ -276,7 +275,6 @@ function Portfolio() {
 
           <a
             href="mailto:lavinia.p.a.melo@gmail.com"
-            target="_blank"
             rel="noopener noreferrer"
             className="inline-block mt-12 font-mono-ui text-lg md:text-xl px-8 py-4 rounded-full bg-ember text-ink hover:bg-foreground transition-colors"
           >
