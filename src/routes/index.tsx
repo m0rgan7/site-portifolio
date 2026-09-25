@@ -25,7 +25,7 @@ const projects = [
     year: "2026",
     name: "Portifólio Lavínia (Data River)",
     role: "Full-stack · Tanstack + Vite",
-    desc: "Portfólio pessoal. Deploy em Vercel, observabilidade via Logflare e métricas customizadas.",
+    desc: "Portfólio pessoal, explorando desenvolvimento web, deploy em Vercel, observabilidade via Logflare e métricas customizadas.",
     stack: ["Tanstack", "React", "Vite", "TailwindCSS", "TypeScript"],
   },
   {
