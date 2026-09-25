@@ -12,7 +12,7 @@ const projects = [
     role: "HTML · Lógica de programação",
     desc: "site para simplificar o cálculo de impostos sob o salário de jovens e simular rendimentos de investimentos.",
     stack: ["HTML", "CSS", "JavaScript", "DOM API", "Google Fonts"],
-    link: "https://m0rgan7.github.io/rentix/",
+    link: "https://m0rgan7.github.io/Rentix/",
   },
   {
     year: "2026",
