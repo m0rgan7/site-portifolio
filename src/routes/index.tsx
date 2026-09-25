@@ -7,11 +7,12 @@ export const Route = createFileRoute("/")({
 
 const projects = [
   {
-    year: "2025",
-    name: "Site para calcular imposto de renda (Rentix)",
-    role: "Full-stack · Lógica de programação",
+    year: "2024",
+    name: "Rentix",
+    role: "HTML · Lógica de programação",
     desc: "site para simplificar o cálculo de impostos sob o salário de jovens e simular rendimentos de investimentos.",
-    stack: ["PyTorch", "MLflow", "Feast", "Kafka"],
+    stack: ["HTML", "CSS", "JavaScript", "DOM API", "Google Fonts"],
+    link: "https://m0rgan7.github.io/rentix/",
   },
   {
     year: "2026",
@@ -22,7 +23,7 @@ const projects = [
   },
   {
     year: "2026",
-    name: "Portifólio Data River",
+    name: "Portifólio Lavínia (Data River)",
     role: "Full-stack · Tanstack + Vite",
     desc: "Portfólio pessoal. Deploy em Vercel, observabilidade via Logflare e métricas customizadas.",
     stack: ["Tanstack", "React", "Vite", "TailwindCSS", "TypeScript"],
@@ -135,7 +136,7 @@ function Portfolio() {
             {projects.map((p, i) => (
               <li key={p.name} className="group border-b border-border">
                 <a
-                  href="https://github.com/m0rgan7"
+                  href={p.link}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="grid md:grid-cols-12 gap-6 py-8 md:py-12 items-baseline transition-all duration-500 group-hover:pl-4"
