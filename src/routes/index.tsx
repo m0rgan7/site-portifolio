@@ -8,17 +8,9 @@ export const Route = createFileRoute("/")({
 const projects = [
   {
     year: "2025",
-    name: "Experimento de SpringBoot",
-    role: "POO · SpringBoot · AWS",
-    desc: "Mini projetos utilizando SpringBoot, AWS e POO para explorar conceitos de arquitetura, design patterns e boas práticas de desenvolvimento.",
-    stack: ["Java", "AWS", "SpringBoot"],
-    link: "https://github.com/m0rgan7/trilha-java-digital-inovation-one",
-  },
-  {
-    year: "2026",
     name: "Site para calcular imposto de renda (Rentix)",
-    role: "Machine Learning · MLOps",
-    desc: "Modelo de detecção de fraude em tempo real (XGBoost + features via Feast). Deploy com MLflow, monitoramento de drift e retraining automatizado.",
+    role: "Full-stack · Lógica de programação",
+    desc: "site para simplificar o cálculo de impostos sob o salário de jovens e simular rendimentos de investimentos.",
     stack: ["PyTorch", "MLflow", "Feast", "Kafka"],
   },
   {
@@ -34,6 +26,14 @@ const projects = [
     role: "Full-stack · Tanstack + Vite",
     desc: "Portfólio pessoal. Deploy em Vercel, observabilidade via Logflare e métricas customizadas.",
     stack: ["Tanstack", "React", "Vite", "TailwindCSS", "TypeScript"],
+  },
+  {
+    year: "2025",
+    name: "Experimento de SpringBoot",
+    role: "POO · SpringBoot · AWS",
+    desc: "Conjunto de projetos desenvolvidos com Spring Boot e AWS, explorando arquitetura, design patterns e boas práticas.",
+    stack: ["Java", "AWS", "SpringBoot"],
+    link: "https://github.com/m0rgan7/trilha-java-digital-inovation-one",
   },
 ];
 
