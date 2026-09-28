@@ -68,13 +68,8 @@
   --destructive-foreground: oklch(98% 0 0);
   --border: oklch(28% 0.014 60);
   --input: oklch(28% 0.014 60);
-<<<<<<< HEAD
-  --ring: oklch(62.658% 0.16375 258.698);
-=======
-  --ring: oklch(49.72% 0.25073 275.247);
->>>>>>> 052603ee7fdda52dda70b32242024b7884814559
-}
 
+  
 @layer base {
   * { border-color: var(--color-border); }
   html { scroll-behavior: smooth; }
